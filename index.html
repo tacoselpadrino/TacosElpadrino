@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TACOS EL PADRINO JR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f4b6e;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #52dafc;
+            font-size: 35px;
+        }
+        h2 {
+            margin-top: 30px;
+            color: #ebd4d4;
+            border-bottom: 4px solid #8a87cd;
+            padding-bottom: 5px;
+            font-size: 25px;
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            color: #e0cfcf;
+            padding: 8px 0;
+            font-size: 20px;
+        }
+        P {
+             color: #e0cfcf;
+             padding: 8px 0;
+            font-size: 15px;
+        }
+
+        .guisos-contenedor {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .guisos-contenedor ul {
+            flex: 1;
+        }
+
+        .guisos-imagen {
+            max-width: 200px;
+        }
+
+        .guisos-imagen img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .domingo-contenedor {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .domingo-item img {
+            width: 180px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .con-precio {
+            display: flex;
+            align-items: center;
+        }
+
+        .con-precio .linea {
+            flex: 1;
+            border-bottom: 5px dotted #f4acac;
+            margin: 0 20px; 
+        }
+
+        .con-precio .precio {
+            font-weight: bold;
+        }
+
+        .sub-lista {
+            padding-left: 30px;
+        }
+
+        .subsabor{
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style = "font-family: cursive;"> TACOS EL PADRINO <img src="imagenes/taqueria.jpg" width="300">JUNIOR</h1>
+    <h2>OFRECEMOS</h2>
+    <li class="con-precio">
+        <span>🌮 Tacos🌮</span>
+        <span class="linea"></span>
+        <span class="precio">$15</span>
+    </li>
+
+    <li class="con-precio">
+        <span class="nombre">🥙 Tortas🥙</span>
+        <span class="linea"></span>
+        <span class="precio">$40</span>
+    </li>
+
+    <li class="con-precio">
+        <span class="nombre">🌯 Quesadilla de harina🌯</span>
+        <span class="linea"></span>
+        <span class="precio">$40</span>
+    </li>
+
+    <li class="con-precio">
+        <span class="nombre">Quesadilla de maíz</span>
+        <span class="linea"></span>
+        <span class="precio">$40</span>
+    </li>
+
+    <li class="con-precio">
+        <span class="nombre">Gringas de maíz</span>
+        <span class="linea"></span>
+        <span class="precio">$40</span>
+    </li>
+</ul>
+
+<h2>🥤 Bebidas 🥤</h2>
+
+<ul>
+    <li class="con-precio">
+        <span class="nombre">🧃 Refresco</span>
+        <span class="linea"></span>
+        <span class="precio">$40</span>
+    </li>
+
+    <li class="con-precio">
+        <span class="nombre">🧋 Agua de sabor🧋</span>
+    </li>
+    <ul class="sub-lista">
+    <li class="con-precio">
+        <span class="subsabor"> Litro</span>
+        <span class="linea"></span>
+        <span class="precio">$40</span>
+    </li>
+    <li class="con-precio">
+        <span class="subsabor">Medio Litro</span>
+        <span class="linea"></span>
+        <span class="precio">$40</span>
+    </li>
+</ul>
+</ul>
+
+    <h2>Contamos con </h2>
+    <div class="guisos-contenedor">
+    <ul>
+        <li>ADOBADO</li>
+        <li>BARBACOA</li>
+        <li>BISTECK</li>
+        <li>CHORIZO</li>
+        <li>COMBINADO</li>
+        <li>SALCHICHON</li>
+        <li>CHISTORRA</li>
+        <li>DISCADA</li>
+    </ul>
+       <div class="guisos-imagen">
+        <img src="imagenes/guisos.jpg">
+    </div>
+</div>
+    <center>
+        <h2> DOMINGOS </h2>
+      <div class="domingo-contenedor">
+
+    <div class="domingo-item">
+        <p>Menudo</p>
+        <img src="imagenes/menudo.jpg">
+        <p class="con-precio">
+            <span class="nombre"> Plato Chico</span>
+            <span class="linea"></span>
+            <span class="precio">40</span>
+        </p>
+        <p class="con-precio">
+            <span class="nombre"> Plato Grande </span> 
+            <span class="linea"></span>
+            <span class="precio">40</span>
+        </p>
+    </div>
+
+    <div class="domingo-item">
+        <p>Consomé</p>
+        <img src="imagenes/consome.jpg">
+    </div>
+
+    <div class="domingo-item">
+        <p>Frijoles Charros</p>
+        <img src="imagenes/frijoles.jpg">
+    </div>
+
+</div>
+    <footer style = "border-top:5px solid #817fa4; border-bottom: 5px solid #817fa4; margin-top: 40px; font-size: 12px; color: #555;">
+        <p>Gracias por su preferencia</p>
+    </footer>
+</center>
+</body>
+</html>
