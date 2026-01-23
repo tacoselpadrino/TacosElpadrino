@@ -37,6 +37,7 @@
              color: #e0cfcf;
              padding: 8px 0;
             font-size: 15px;
+            text-align: center;
         }
 
         .guisos-contenedor {
@@ -62,7 +63,7 @@
 
         .domingo-contenedor {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             text-align: center;
             margin-top: 20px;
@@ -96,45 +97,108 @@
         .subsabor{
             font-size: 16px;
         }
+
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 5px solid #817fa4;
+            padding: 10px 20px;
+            color: #e0cfcf;
+            gap: 20px; /* 👈 separación */
+        }
+
+        .footer-item {
+           width: 50%;
+           
+        }
+
+        .telefono {
+            background-color: #25D366;
+            border-radius: 10px;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px; 
+            
+        }
+
+        .telefono img {
+            width: 40px; 
+            height: auto;
+            
+        }
+
     </style>
 </head>
 <body>
 
-    <h1 style = "font-family: cursive;"> TACOS EL PADRINO <img src="imagenes/taqueria.jpg" width="300">JUNIOR</h1>
+    <h1 style = "font-family: cursive;"> TACOS EL PADRINO</h1>
+    <center><img src="imagenes/taqueria.jpg" width="200"></center>
     <h2>OFRECEMOS</h2>
-    <li class="con-precio">
-        <span>🌮 Tacos🌮</span>
-        <span class="linea"></span>
-        <span class="precio">$15</span>
-    </li>
+<ul>
+        <li class="con-precio">
+            <span>🌮 Tacos🌮</span>
+            <span class="linea"></span>
+            <span class="precio">$16</span>
+        </li>
 
-    <li class="con-precio">
-        <span class="nombre">🥙 Tortas🥙</span>
-        <span class="linea"></span>
-        <span class="precio">$40</span>
-    </li>
+        <li class="con-precio">
+            <span class="nombre">🥙 Tortas🥙</span>
+            <span class="linea"></span>
+            <span class="precio">$40</span>
+        </li>
 
-    <li class="con-precio">
-        <span class="nombre">🌯 Quesadilla de harina🌯</span>
-        <span class="linea"></span>
-        <span class="precio">$80</span>
-    </li>
+        <li class="con-precio">
+            <span class="nombre">Quesadilla de maiz grande</span>
+            <span class="linea"></span>
+            <span class="precio">$75</span>
+        </li>
 
-    <li class="con-precio">
-        <span class="nombre">Quesadilla de maíz</span>
-        <span class="linea"></span>
-        <span class="precio">$40</span>
-    </li>
+        <li class="con-precio">
+            <span class="nombre">Quesadilla de maíz chica</span>
+            <span class="linea"></span>
+            <span class="precio">$35</span>
+        </li>
 
-    <li class="con-precio">
-        <span class="nombre">Gringas de maíz</span>
-        <span class="linea"></span>
-        <span class="precio">$40</span>
-    </li>
+        <li class="con-precio">
+            <span class="nombre">Quesadilla de harina grande</span>
+            <span class="linea"></span>
+            <span class="precio">$60</span>
+        </li>
+
+        <li class="con-precio">
+            <span class="nombre">Gringas grande</span>
+            <span class="linea"></span>
+            <span class="precio">$90</span>
+        </li>
+
+        <li class="con-precio">
+            <span class="nombre">Volcan</span>
+            <span class="linea"></span>
+            <span class="precio">$17</span>
+        </li>
+
+        <li class="con-precio">
+            <span class="nombre">Quesabirria</span>
+            <span class="linea"></span>
+            <span class="precio">$40</span>
+        </li>
+
+        <li class="con-precio">
+            <span class="nombre">Consome</span>
+            <span class="linea"></span>
+            <span class="precio">$15</span>
+        </li>
+
+        <li class="con-precio">
+            <span class="nombre">Por Kilo</span>
+            <span class="linea"></span>
+            <span class="precio">$40</span>
+        </li>
 </ul>
 
-<h2>🥤 Bebidas 🥤</h2>
-
+    <h2>🥤 Bebidas 🥤</h2>
 <ul>
     <li class="con-precio">
         <span class="nombre">🧃 Refresco</span>
@@ -160,54 +224,70 @@
 </ul>
 
     <h2>Contamos con </h2>
-    <div class="guisos-contenedor">
+<div class="guisos-contenedor">
     <ul>
-        <li>ADOBADO</li>
         <li>BARBACOA</li>
         <li>BISTECK</li>
         <li>CHORIZO</li>
         <li>COMBINADO</li>
+        <li>PASTOR</li>
+        <li>HIGADO</li>
+        <li>TRIPA</li>
         <li>SALCHICHON</li>
-        <li>CHISTORRA</li>
         <li>DISCADA</li>
+        <li>CHISTORRA</li>
+        <li>ARRACHERA</li>
     </ul>
-       <div class="guisos-imagen">
-        <img src="imagenes/guisos.jpg">
-    </div>
+<div class="guisos-imagen">
+       <img src="imagenes/guisos.jpg">
+ </div>
 </div>
-    <center>
-        <h2> DOMINGOS </h2>
-      <div class="domingo-contenedor">
+
+
+ 
+<div class="domingo-contenedor">
 
     <div class="domingo-item">
+        <h2>Fin de semana</h2>
+        <p>Frijoles Charros</p>
+        <img src="imagenes/frijoles.jpg">
+    </div>
+
+    <div class="domingo-item">
+        <h2>Domingo</h2>
         <p>Menudo</p>
         <img src="imagenes/menudo.jpg">
+
         <p class="con-precio">
-            <span class="nombre"> Plato Chico</span>
+            <span>Plato Chico</span>
             <span class="linea"></span>
             <span class="precio">160</span>
         </p>
+
         <p class="con-precio">
-            <span class="nombre"> Plato Grande </span> 
+            <span>Plato Grande</span>
             <span class="linea"></span>
             <span class="precio">120</span>
         </p>
     </div>
 
-    <div class="domingo-item">
-        <p>Consomé</p>
-        <img src="imagenes/consome.jpg">
-    </div>
-
-    <div class="domingo-item">
-        <p>Frijoles Charros</p>
-        <img src="imagenes/frijoles.jpg">
-    </div>
-
 </div>
-    <footer style = "border-top:5px solid #817fa4; border-bottom: 5px solid #817fa4; margin-top: 40px; font-size: 12px; color: #555;">
-        <p>Gracias por su preferencia</p>
-    </footer>
-</center>
+
+<h2>Gracias por su preferencia </h2>
+<p>contactenos presionando los sugientes numeros</p>
+<footer class="footer">
+    <a href="https://wa.me/524445735170" class="footer-item telefono">
+        <img src="imagenes/whatsapp.gif">
+        <span>444 573 5170</span>
+    </a>
+
+    <a href="https://wa.me/524447278454" class="footer-item telefono">
+      <img src="imagenes/whatsapp.gif">
+      <span>444 727 8454 </span> 
+      
+    </a>
+</style>
+</footer>
+
 </body>
 </html>
